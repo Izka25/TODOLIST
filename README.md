@@ -1,6 +1,6 @@
 # Task list
 
-![To do list](lista zadan react1.png)
+![To do list](https://github.com/Izka25/TODOLIST/blob/main/public/lista%20zadan%20react1.png)
 
 Description 
 
