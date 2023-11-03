@@ -1,6 +1,6 @@
 # Task list
 
-![To do list](images/share.jpg)
+![To do list](images/share.png)
 
 Description 
 
