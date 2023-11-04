@@ -1,82 +1,82 @@
 .tasks {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .task {
-    display: flex;
-    flex-basis: 100px;
-    border-bottom: 1px solid #eee;
-    margin: auto;
-    background-color: white;
-    padding: 25px;
-    max-width: 900px;
-  }
-  
-  .task--hidden {
-    display: none;
-    text-decoration: line-through;
-  }
+.task {
+  display: flex;
+  flex-basis: 100px;
+  border-bottom: 1px solid #eee;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  max-width: 900px;
+}
 
-  .newTask {
-    max-width: 650px;
-    padding: 10px;
-    border: 1px solid #eee;
-  }
-  
-  .tasks__content {
-    display: flex;
-    flex-grow: 1;
-    padding: 2px;
-  }
-  
-  .tasks__content--done {
-    flex-grow: 1;
-    padding: 2px;
-    text-decoration: line-through;
-  }
+.task--hidden {
+  display: none;
+  text-decoration: line-through;
+}
 
-  .remove {
-    background: red;
-    max-width: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: flex-end;
-    transition: 1s;
-    color: white;
-    border: none;
-  }
-  
-  .remove:hover {
-    background: rgb(230, 9, 9);
-    transform: scale(1.5);
-  }
-  
-  .toggleDone {
-    background: green;
-    max-width: 25px;
-    transition: 1s;
-    width: 30px;
-    height: 30px;
-    color: white;
-    border: none;
-  }
-  
-  .toggleDone:hover {
-    background: rgb(64, 199, 64);
-    transform: scale(1.5);
-  }
+.newTask {
+  max-width: 650px;
+  padding: 10px;
+  border: 1px solid #eee;
+}
 
-  .button {
-    background-color: #326c86;
-    color: white;
-    transition: 1s;
-    border: none;
-  }
-  
-  .button:hover {
-    background: #593ee0;
-    transform: scale(1.5);
-  }
+.tasks__content {
+  display: flex;
+  flex-grow: 1;
+  padding: 2px;
+}
+
+.tasks__content--done {
+  flex-grow: 1;
+  padding: 2px;
+  text-decoration: line-through;
+}
+
+.remove {
+  background: red;
+  max-width: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-end;
+  transition: 1s;
+  color: white;
+  border: none;
+}
+
+.remove:hover {
+  background: rgb(230, 9, 9);
+  transform: scale(1.5);
+}
+
+.toggleDone {
+  background: green;
+  max-width: 25px;
+  transition: 1s;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border: none;
+}
+
+.toggleDone:hover {
+  background: rgb(64, 199, 64);
+  transform: scale(1.5);
+}
+
+.button {
+  background-color: #326c86;
+  color: white;
+  transition: 1s;
+  border: none;
+}
+
+.button:hover {
+  background: #593ee0;
+  transform: scale(1.5);
+}

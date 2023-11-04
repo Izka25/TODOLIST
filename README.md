@@ -4,7 +4,17 @@
 
 Description 
 
-#https://izka25.github.io/TODOLIST/
+The to-do list allows us to write down tasks to do, now we won't forget anything. We can mark whether we have done them or not.
+
+Technologies used to make the page:
+HTML
+CSS
+JavaScript
+React
+BEM
+
+# https://izka25.github.io/TODOLIST/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
