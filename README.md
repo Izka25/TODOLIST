@@ -12,6 +12,8 @@ CSS
 JavaScript
 React
 BEM
+Webpack
+Babel
 
 # https://izka25.github.io/TODOLIST/
 
