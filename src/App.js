@@ -31,6 +31,14 @@ setTasks(tasks => tasks.map(task => {
   return task;
 }));
 }
+
+const setAllDone = () => {
+  setTasks(tasks => tasks.map(task => ({
+    ...task, 
+    done: true,
+  })));
+};
+
   return (
     
       <Container>
@@ -53,6 +61,7 @@ setTasks(tasks => tasks.map(task => {
               tasks={tasks}
               hideDone={hideDone}
               toggleHideDone={toggleHideDone}
+              setAllDone={setAllDone}
             />
           }
         />
