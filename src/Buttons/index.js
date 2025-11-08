@@ -1,4 +1,3 @@
-import "./style.css";
 import { Div, HideDoneButton, MakeAllDone } from "./styled";
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
