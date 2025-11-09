@@ -40,5 +40,5 @@ export const Buttons = styled.ul`
 `;
 
 export const Body = styled.div`
-padding: 20px;
+padding: 0;
 `;
