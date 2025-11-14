@@ -39,6 +39,6 @@ export const Buttons = styled.ul`
     flex-wrap: wrap;
 `;
 
-export const Body = styled.div`
+export const SectionBody = styled.div`
 padding: 0;
 `;
