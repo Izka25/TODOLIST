@@ -1,6 +1,6 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
-export const FormStyles = styled.form`
+export const StyledForm = styled.form`
     padding: 25px;
     display: grid;
     grid-template-columns: 1fr auto;

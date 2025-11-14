@@ -1,6 +1,6 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
-export const  Div = styled.div`
+export const StyledButtons = styled.div`
     display: flex;
     justify-content: flex-end;
 

@@ -1,7 +1,7 @@
-import { Div, HideDoneButton, MakeAllDone } from "./styled";
+import { StyledButtons, HideDoneButton, MakeAllDone } from "./styled";
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
-  <Div>
+  <StyledButtons>
     {tasks.length > 0 && (
       <>
         <HideDoneButton onClick={toggleHideDone}>
@@ -15,7 +15,7 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
         </MakeAllDone>
       </>
     )}
-  </Div>
+  </StyledButtons>
 );
 
 export default Buttons;
