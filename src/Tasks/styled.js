@@ -62,8 +62,11 @@ ${({ $remove }) => $remove && css`
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    justify-content: flex-end;
+    justify-content: center;
     transition: 1s;
+    width: 30px;
+    height: 30px;
+    align-items: center;
   
   &:hover {
     background: rgb(230, 9, 9);
