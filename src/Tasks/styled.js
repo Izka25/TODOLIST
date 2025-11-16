@@ -9,9 +9,9 @@ export const List = styled.ul`
 export const Task = styled.li`
     display: flex;
     flex-basis: 100px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid ${({ theme }) => theme.color.gallery};
     margin: auto;
-    background-color: white;
+    background-color: ${({ theme }) => theme.color.white};
     padding: 25px;
  
   ${({ hidden }) => hidden && css`
@@ -33,31 +33,31 @@ export const Content = styled.span`
 `;
 
 export const Button = styled.button`
-    background-color: #326c86;
-    color: white;
+    background-color: ${({ theme }) => theme.color.calypso};
+    color: ${({ theme }) => theme.color.white};
     transition: 1s;
     border: none;
 
     &:hover {
-    background: #593ee0;
+    background: ${({ theme }) => theme.color.royalBlue};
     transform: scale(1.5);
     }
     
 ${({ $toggleDone }) => $toggleDone && css`
-    background: green;
+    background: ${({ theme }) => theme.color.japaneseLaurel};
     max-width: 25px;
     transition: 1s;
     width: 30px;
     height: 30px;
    
     &:hover {
-    background: rgb(64, 199, 64);
+    background: ${({ theme }) => theme.color.apple};
     transform: scale(1.5);
     }
 `}
 
 ${({ $remove }) => $remove && css`
-    background: red;
+    background: ${({ theme }) => theme.color.red};
     max-width: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +69,7 @@ ${({ $remove }) => $remove && css`
     align-items: center;
   
   &:hover {
-    background: rgb(230, 9, 9);
+    background: ${({ theme }) => theme.color.scarlet};
     transform: scale(1.5);
     }
 `}

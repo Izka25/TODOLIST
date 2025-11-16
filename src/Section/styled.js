@@ -13,10 +13,10 @@ export const Header = styled.header`
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    background-color: white;
+    background-color: ${({ theme }) => theme.color.white};
     margin: auto;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid ${({ theme }) => theme.color.gallery};
 
     @media (max-width: 767px) {
     display: flex;
@@ -27,7 +27,7 @@ export const Header = styled.header`
 `;
 
 export const Title = styled.h2`
-    background-color: white;
+    background-color: ${({ theme }) => theme.color.white};
     margin: 0;
     padding: 10px;
     text-align: left;
