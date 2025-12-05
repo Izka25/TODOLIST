@@ -36,3 +36,10 @@ export const MakeAllDone = styled.button`
         color: ${({ theme }) => theme.color.silver};
     };
 `;
+
+export const Button = styled.button`
+    border: none;
+    margin: 0 0 0 20px;
+    background: transparent;
+    color:  ${({ theme }) => theme.color.keppel}
+`;
