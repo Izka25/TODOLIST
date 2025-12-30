@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const SectionStyles = styled.section`
+background-color: ${({ theme }) => theme.color.white};
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
     text-align: left;
     max-width: 900px;
-    margin: 10px;
+    margin: 10px 0;
 `;
 
 export const Header = styled.header`
