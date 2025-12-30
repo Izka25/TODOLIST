@@ -12,5 +12,6 @@ export const theme = {
         red: "#FF0000",
         scarlet: "#FE1F16",
         softPeach: "#f3ebeb",
+        teal: " #008080",
     }
 }
