@@ -41,5 +41,5 @@ export const Buttons = styled.ul`
 `;
 
 export const SectionBody = styled.div`
-padding: 0;
+padding: 20px;
 `;
