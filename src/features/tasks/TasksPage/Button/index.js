@@ -37,6 +37,8 @@ export const MakeAllDone = styled.button`
 
     &:disabled {
         color: ${({ theme }) => theme.color.silver};
+        cursor: not-allowed;
+        pointer-events: none;
     };
 `;
 
